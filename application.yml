@@ -40,6 +40,9 @@ app:
     - other: "Other"
   support-email-address: hello@glamoor.com
   show-post-like-count: false
+  default-max-distance: 10000
+  default-longitude: -0.2664051
+  default-latitude: 51.5287398
 
 rabbitmq:
   host: localhost
