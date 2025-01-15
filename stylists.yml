@@ -1,0 +1,21 @@
+
+spring:
+  application:
+    name: stylists
+      
+      
+server:
+  port: 8008
+
+app:
+  requests:
+    batch-sizes:
+      home:
+        stylist: 14
+      stylist: 20
+      service-specification: 30
+    results:
+      max-distance: 10000
+    default:
+      longitude: -0.2664051
+      latitude: 51.5287398

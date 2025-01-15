@@ -1,3 +1,21 @@
+
+spring:
+  data:
+    mongodb:
+      uri: ${MONGO_URI}
+      mapping:
+        strategy: STANDARD
+  main:
+    web-application-type: reactive
+  jackson:
+    mapper:
+      accept-case-insensitive-enums: true
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
 app:
   name: Glamoor
   url: https://glamoor.com
@@ -22,3 +40,9 @@ app:
     - other: "Other"
   support-email-address: hello@glamoor.com
   show-post-like-count: false
+
+rabbitmq:
+  host: localhost
+  port: 5672
+  username: guest
+  password: guest
