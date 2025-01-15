@@ -1,15 +1,24 @@
-images:
-  directories:
-    posts: images/posts
-    gallery: images/gallery
-    bookingMessages: images/messages
-    serviceCategories: images/service-categories
-    serviceSpecification: images/service-specification
-    stylistBanners: images/banner
-    stylistProfilePictures: images/profile-pictures
-    userProfilePictures: images/user-profile-pictures
-    reviewPictures: images/review-pictures
-    providerProfilePictures: images/provider-profile-pictures
-  defaultFormat: .webp
-deleteAccountReasons:
-  createdAccountByMistake: 
+app:
+  name: Glamoor
+  url: https://glamoor.com
+
+  images:
+    directories:
+      posts: images/posts
+      gallery: images/gallery
+      booking-messages: images/messages
+      service-categories: images/service-categories
+      service-specification: images/service-specification
+      stylist-banners: images/banner
+      stylist-profile-pictures: images/profile-pictures
+      user-profile-pictures: images/user-profile-pictures
+      review-pictures: images/review-pictures
+      provider-profile-pictures: images/provider-profile-pictures
+    default-format: .webp
+  delete-account-reasons:
+    - created-account-by-mistake: "I created this account by mistake"
+    - do-not-want-to-use-app-anymore: "I do not want to use ${app.name} App anymore"
+    - cannot-find-stylists: "I can not find stylists that I like"
+    - other: "Other"
+  support-email-address: hello@glamoor.com
+  show-post-like-count: false
