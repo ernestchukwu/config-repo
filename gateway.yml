@@ -28,7 +28,6 @@ client:
   android:
     - version: 1.0.0
       settings-version: 7
-      mandatory-update: false
       latest-version: 1.0.0
       sign-in-options:
         google: true
@@ -36,10 +35,10 @@ client:
         apple: false
         email-and-password: true
       default-map-zoom: 14.4746
+      mandatory-update: false
   ios:
     - version: 1.0.0
       settings-version: 7
-      mandatory-update: false
       latest-version: 1.0.0
       default-map-zoom: 14.4746
       sign-in-options:
@@ -48,10 +47,10 @@ client:
         apple: false
         email-and-password: true
       default-map-zoom: 14.4746
+      mandatory-update: false
   web:
     - version: 1.0.0
       settings-version: 7
-      mandatory-update: false
       latest-version: 1.0.0
       sign-in-options:
         google: true
@@ -59,3 +58,4 @@ client:
         apple: false
         email-and-password: true
       default-map-zoom: 14.4746
+      mandatory-update: false
