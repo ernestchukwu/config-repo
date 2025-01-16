@@ -29,33 +29,32 @@ client:
     - version: 1.0.0
       settings-version: 7
       latest-version: 1.0.0
+      mandatory-update: false
       sign-in-options:
         google: true
         facebook: false
         apple: false
         email-and-password: true
       default-map-zoom: 14.4746
-      mandatory-update: false
   ios:
     - version: 1.0.0
       settings-version: 7
       latest-version: 1.0.0
-      default-map-zoom: 14.4746
+      mandatory-update: false
       sign-in-options:
         google: true
         facebook: false
         apple: false
         email-and-password: true
       default-map-zoom: 14.4746
-      mandatory-update: false
   web:
     - version: 1.0.0
       settings-version: 7
       latest-version: 1.0.0
+      mandatory-update: false
       sign-in-options:
         google: true
         facebook: false
         apple: false
         email-and-password: true
       default-map-zoom: 14.4746
-      mandatory-update: false
