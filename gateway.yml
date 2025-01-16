@@ -1,0 +1,24 @@
+
+
+spring:
+  application:
+    name: gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+      default-filters:
+        - AddResponseHeader=X-Content-Type-Options, nosniff
+        - AddResponseHeader=X-XSS-Protection, 1; mode=block
+        - AddResponseHeader=Content-Security-Policy, "default-src 'self'"
+      
+  data:
+    redis:
+      host: localhost
+      port: 6379
+
+
+server:
+  port: 8000

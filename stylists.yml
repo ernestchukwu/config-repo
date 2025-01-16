@@ -9,6 +9,6 @@ server:
 
 app:
   requests-batch-sizes:
-    home: 14
+    stylists-home: 14
     default-size: 20
     service-specification: 30
