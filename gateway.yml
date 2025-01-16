@@ -22,3 +22,39 @@ spring:
 
 server:
   port: 8000
+
+
+client:
+  android:
+    - version: 1.0.0
+      settings-version: 7
+      mandatory-update: false
+      latest-version: 1.0.0
+      default-map-zoom: 14.4746
+      sign-in:
+        google: true
+        facebook: false
+        apple: false
+        email-and-password: true
+  ios:
+    - version: 1.0.0
+      settings-version: 7
+      mandatory-update: false
+      latest-version: 1.0.0
+      default-map-zoom: 14.4746
+      sign-in:
+        google: true
+        facebook: false
+        apple: false
+        email-and-password: true
+  web:
+    - version: 1.0.0
+      settings-version: 7
+      mandatory-update: false
+      latest-version: 1.0.0
+      default-map-zoom: 14.4746
+      sign-in:
+        google: true
+        facebook: false
+        apple: false
+        email-and-password: true

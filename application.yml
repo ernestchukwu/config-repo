@@ -16,9 +16,15 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
 
+rabbitmq:
+  host: localhost
+  port: 5672
+  username: guest
+  password: guest
+
 app:
-  name: Glamoor
-  url: https://glamoor.com
+  app-name: Glamoor
+  app-url: https://glamoor.com
 
   images:
     directories:
@@ -34,18 +40,18 @@ app:
       provider-profile-pictures: images/provider-profile-pictures
     default-format: .webp
   delete-account-reasons:
-    - created-account-by-mistake: "I created this account by mistake"
-    - do-not-want-to-use-app-anymore: "I do not want to use ${app.name} App anymore"
-    - cannot-find-stylists: "I can not find stylists that I like"
-    - other: "Other"
+    created-account-by-mistake: "I created this account by mistake"
+    do-not-want-to-use-app-anymore: "I do not want to use ${app.app-name} App anymore"
+    cannot-find-stylists: "I can not find stylists that I like"
+    other: "Other"
   support-email-address: hello@glamoor.com
   show-post-like-count: false
   default-max-distance: 10000
   default-longitude: -0.2664051
   default-latitude: 51.5287398
 
-rabbitmq:
-  host: localhost
-  port: 5672
-  username: guest
-  password: guest
+  stylists-settings:
+    requests-batch-sizes:
+      stylists-home: 14
+      default-size: 20
+      service-specification: 30
