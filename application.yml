@@ -51,7 +51,7 @@ app:
   default-latitude: 51.5287398
 
   stylists-settings:
-    requests-batch-sizes:
-      stylists-home: 14
-      default-size: 20
-      service-specification: 30
+    stylists-request-batch-size-for-home-view: 14
+    stylists-request-batch-size: 20
+    service-specification-request-batch-size: 30
+    service-specification-request-batch-size-mini: 5
