@@ -45,6 +45,7 @@ app:
     cannot-find-stylists: "I can not find stylists that I like"
     other: "Other"
   support-email-address: hello@glamoor.com
+  future-booking-days-extent: 150
   show-post-like-count: false
   default-max-distance: 10000
   default-longitude: -0.2664051
