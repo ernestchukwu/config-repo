@@ -51,8 +51,25 @@ app:
   default-longitude: -0.2664051
   default-latitude: 51.5287398
 
+
+  customer-settings:
+    api:
+      base-url: http://localhost:8002/api/customers
+      timeout: 5000
+
   stylists-settings:
+    api:
+      base-url: http://localhost:8008/api/stylists
+      timeout: 5000
     stylists-request-batch-size-for-home-view: 14
     stylists-request-batch-size: 20
     service-specification-request-batch-size: 30
     service-specification-request-batch-size-mini: 5
+
+  bookings-settings:
+    api:
+      base-url: http://localhost:8001/api/bookings
+      timeout: 5000
+    bookings-request-batch-size: 20
+    messages-request-batch-size: 20
+

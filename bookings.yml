@@ -1,8 +1,9 @@
 
 spring:
   application:
-    name: stylists
+    name: bookings
       
       
 server:
-  port: 8008
+  port: 8001
+
