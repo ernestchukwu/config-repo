@@ -1,9 +1,0 @@
-
-spring:
-  application:
-    name: bookings
-      
-      
-server:
-  port: 8001
-
