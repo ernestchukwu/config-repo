@@ -2,7 +2,7 @@
 spring:
   data:
     mongodb:
-      uri: ${MONGO_URI}
+      uri: mongodb+srv://user0:pa55word@cluster0.60nf1ec.mongodb.net/glamoor-bookings?retryWrites=true&w=majority
       mapping:
         strategy: STANDARD
   main:
