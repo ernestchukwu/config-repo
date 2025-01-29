@@ -2,8 +2,7 @@
 spring:
   application:
     name: reviews
-      
-      
+
 server:
   port: 8006
 
