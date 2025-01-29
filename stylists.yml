@@ -6,3 +6,10 @@ spring:
       
 server:
   port: 8008
+
+
+stylists-app:
+  stylists-request-batch-size-for-home-view: 14
+  stylists-request-batch-size: 20
+  service-specification-request-batch-size: 30
+  service-specification-request-batch-size-mini: 5

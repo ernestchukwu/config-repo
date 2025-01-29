@@ -52,21 +52,11 @@ app:
   default-latitude: 51.5287398
 
 
-  customer-settings:
-    api:
-      base-url: ${CUSTOMERS_API_BASE_URL}
-      timeout: ${API_REQUEST_TIMEOUT}
-
-  stylists-settings:
-    api:
-      base-url: ${STYLISTS_API_BASE_URL}
-      timeout: ${API_REQUEST_TIMEOUT}
-    stylists-request-batch-size-for-home-view: 14
-    stylists-request-batch-size: 20
-    service-specification-request-batch-size: 30
-    service-specification-request-batch-size-mini: 5
-
-  bookings-settings:
-    bookings-request-batch-size: 20
-    messages-request-batch-size: 20
+api:
+  customers-api:
+    base-url: ${CUSTOMERS_API_BASE_URL}
+    request-timeout: ${API_REQUEST_TIMEOUT}
+  stylists-api:
+    base-url: ${STYLISTS_API_BASE_URL}
+    request-timeout: ${API_REQUEST_TIMEOUT}
 

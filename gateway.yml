@@ -16,12 +16,12 @@ spring:
       
   data:
     redis:
-      host: localhost
-      port: 6379
+      host: ${REDIS_HOST}
+      port: ${REDIS_PORT}
 
 
 server:
-  port: 8000
+  port: 80
 
 
 client:
