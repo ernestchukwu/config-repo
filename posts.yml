@@ -1,0 +1,13 @@
+
+spring:
+  application:
+    name: posts
+      
+      
+server:
+  port: 8005
+
+
+posts-app:
+  posts-request-batch-size-for-home-view: 14
+  posts-request-batch-size: 20

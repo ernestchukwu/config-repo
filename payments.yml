@@ -1,0 +1,10 @@
+
+spring:
+  application:
+    name: payments
+      
+server:
+  port: 8004
+
+payments-app:
+  stripe-secret-key: ${STRIPE_SECRET_KEY}

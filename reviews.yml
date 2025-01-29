@@ -1,0 +1,13 @@
+
+spring:
+  application:
+    name: reviews
+      
+      
+server:
+  port: 8006
+
+
+reviews-app:
+  reviews-request-batch-size: 20
+  review-replies-request-batch-size: 20

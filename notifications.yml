@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: notifications
+      
+server:
+  port: 8003
+
+notifications-app:
+  notification-request-batch-size: 20
+  bookings-notification-sender-email: bookings@glamoor.co.uk
