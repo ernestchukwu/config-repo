@@ -32,6 +32,7 @@ app:
   app-name: Glamoor
   app-url: https://glamoor.com
 
+  static-resources-path: "http://192.168.1.162/api"
   images:
     directories:
       posts: images/posts
@@ -71,4 +72,6 @@ api:
   bookings-api:
     base-url: ${BOOKINGS_API_BASE_URL}
     request-timeout: ${API_REQUEST_TIMEOUT}
+  gateway-api:
+    base-url: ${GATEWAY_BASE_URL}
 
