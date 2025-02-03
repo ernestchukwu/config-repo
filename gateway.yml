@@ -5,7 +5,7 @@ spring:
     name: gateway
   cloud:
     config:
-      name: stylists,bookings
+      name: stylists,bookings,gateway
     gateway:
       discovery:
         locator:
