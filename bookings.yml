@@ -11,3 +11,4 @@ server:
 bookings-app:
   bookings-request-batch-size: 20
   messages-request-batch-size: 20
+  future-booking-days-extent: 90
