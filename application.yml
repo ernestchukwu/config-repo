@@ -15,7 +15,7 @@ management:
   endpoints:
     web:
       exposure:
-        include: "refresh,health"
+        include: *
 
 eureka:
   client:
