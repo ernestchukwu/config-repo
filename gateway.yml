@@ -38,7 +38,7 @@ client:
       default-map-zoom: 14.4746
   ios:
     - version: 1.0.0
-      settings-version: 13
+      settings-version: 14
       latest-version: 1.0.0
       mandatory-update: false
       sign-in-options:
