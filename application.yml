@@ -59,6 +59,7 @@ app:
   default-latitude: 51.5287398
   time-slot-reservation-duration-seconds: 600
   time-slot-escrow-duration-seconds: 75
+  time-slot-heartbeat-cadence-seconds: 60
 
 
 api:
