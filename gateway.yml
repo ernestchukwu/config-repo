@@ -27,7 +27,7 @@ server:
 client:
   android:
     - version: 1.0.0
-      settings-version: 7
+      settings-version: 8
       latest-version: 1.0.0
       mandatory-update: false
       sign-in-options:
