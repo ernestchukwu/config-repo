@@ -12,3 +12,5 @@ bookings-app:
   bookings-request-batch-size: 20
   messages-request-batch-size: 20
   future-booking-days-extent: 90
+  time-slot-escrow-duration-seconds: 75
+  
