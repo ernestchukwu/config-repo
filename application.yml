@@ -57,6 +57,7 @@ app:
   query-results-max-distance: 10000
   default-longitude: -0.2664051
   default-latitude: 51.5287398
+  time-slot-reservation-duration-seconds: 600
 
 
 api:
