@@ -38,7 +38,7 @@ app:
   app-name: Glamoor
   app-url: https://glamoor.com
 
-  static-resources-path: "http://192.168.1.162/api"
+  static-resources-path: "/app/static-resources/"
   images:
     directories:
       posts: images/posts
