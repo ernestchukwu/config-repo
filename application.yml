@@ -81,7 +81,7 @@ api:
     base-url: ${BOOKINGS_API_BASE_URL}
     request-timeout: ${API_REQUEST_TIMEOUT}
   gateway-api:
-    base-url: ${GATEWAY_BASE_URL}
+    base-url: ${GATEWAY_API_BASE_URL}
     request-timeout: ${API_REQUEST_TIMEOUT}
 
 
