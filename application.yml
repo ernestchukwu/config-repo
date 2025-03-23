@@ -82,4 +82,6 @@ api:
     request-timeout: ${API_REQUEST_TIMEOUT}
   gateway-api:
     base-url: ${GATEWAY_BASE_URL}
+    request-timeout: ${API_REQUEST_TIMEOUT}
+
 
