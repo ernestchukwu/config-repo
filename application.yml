@@ -10,6 +10,9 @@ spring:
   jackson:
     mapper:
       accept-case-insensitive-enums: true
+  webflux:
+    validator:
+      enabled: true
 
   servlet:
     multipart:

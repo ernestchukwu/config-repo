@@ -10,6 +10,7 @@ server:
 
 bookings-app:
   bookings-request-batch-size: 20
+  bookings-request-batch-size-for-home-screen: 8
   messages-request-batch-size: 20
   future-booking-days-extent: 90
   time-slot-escrow-duration-seconds: 75
