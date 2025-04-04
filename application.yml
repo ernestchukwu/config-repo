@@ -63,7 +63,7 @@ app:
   support-email-address: hello@glamoor.com
   future-booking-days-extent: 150
   show-post-like-count: false
-  query-results-max-distance: 10000
+  query-results-max-distance: 100000
   default-longitude: -0.2664051
   default-latitude: 51.5287398
   time-slot-reservation-duration-seconds: 600
