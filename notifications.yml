@@ -8,3 +8,6 @@ server:
 notifications-app:
   notification-request-batch-size: 20
   bookings-notification-sender-email: bookings@glamoor.co.uk
+  sendgrid-api-key: ${SENDGRID_API_KEY}
+  sendgrid-email-from: ${SENDGRID_EMAIL_FROM}
+  sendgrid-email-from-name: ${SENDGRID_EMAIL_FROM_NAME}
