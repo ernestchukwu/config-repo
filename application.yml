@@ -74,8 +74,8 @@ api:
   customers-api:
     base-url: ${CUSTOMERS_API_BASE_URL}
     request-timeout: ${API_REQUEST_TIMEOUT}
-  stylists-api:
-    base-url: ${STYLISTS_API_BASE_URL}
+  salons-api:
+    base-url: ${SALONS_API_BASE_URL}
     request-timeout: ${API_REQUEST_TIMEOUT}
   payments-api:
     base-url: ${PAYMENTS_API_BASE_URL}
