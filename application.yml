@@ -49,8 +49,8 @@ app:
       booking-messages: images/messages
       service-categories: images/service-categories
       service-specification: images/service-specification
-      stylist-banners: images/banner
-      stylist-profile-pictures: images/profile-pictures
+      salon-banners: images/banner
+      salon-profile-pictures: images/profile-pictures
       user-profile-pictures: images/user-profile-pictures
       review-pictures: images/review-pictures
       provider-profile-pictures: images/provider-profile-pictures
@@ -58,7 +58,7 @@ app:
   delete-account-reasons:
     created-account-by-mistake: "I created this account by mistake"
     do-not-want-to-use-app-anymore: "I do not want to use ${app.app-name} App anymore"
-    cannot-find-stylists: "I can not find stylists that I like"
+    cannot-find-salons: "I can not find salons that I like"
     other: "Other"
   support-email-address: hello@glamoor.com
   future-booking-days-extent: 150
