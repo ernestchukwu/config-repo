@@ -6,7 +6,7 @@ spring:
       mapping:
         strategy: STANDARD
   main:
-    web-application-type: reactive
+    web-application-type: servlet
   jackson:
     mapper:
       accept-case-insensitive-enums: true
