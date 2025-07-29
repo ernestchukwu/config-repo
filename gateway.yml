@@ -24,6 +24,13 @@ spring:
       host: ${REDIS_HOST}
       port: ${REDIS_PORT}
 
+  main:
+    web-application-type: reactive
+
+  webflux:
+    validator:
+    enabled: true
+
 
 server:
   port: 80

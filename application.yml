@@ -10,9 +10,9 @@ spring:
   jackson:
     mapper:
       accept-case-insensitive-enums: true
-  webflux:
-    validator:
-      enabled: true
+  # webflux:
+  #   validator:
+  #     enabled: true
 
   servlet:
     multipart:
@@ -41,7 +41,7 @@ app:
   app-name: Glamoor
   app-url: https://glamoor.com
 
-  static-resources-path: "/app/static-resources/"
+  static-resources-path: /app/static-resources/
   images:
     directories:
       posts: images/posts
