@@ -42,7 +42,7 @@ app:
   app-name: Glamoor
   app-url: https://salonsynq.co.uk
 
-  google-maps-api-key: AIzaSyCAfkmQUhg0hrn38Se4oWuMKiZ32iN5d3g
+  google-maps-api-key: ${GOOGLE_MAPS_API_KEY}
   get-address-io-api-key: GtbTElvGkUaiu1_7cWeNCg47297
   static-resources-path: /app/static-resources/
   images-base-url: https://s3.eu-west-2.amazonaws.com/salonsynq-app-images/
