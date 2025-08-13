@@ -49,9 +49,9 @@ app:
   images-base-url: https://s3.eu-west-2.amazonaws.com/salonsynq-app-images/
   images:
     directories:
-      posts: images/posts
-      gallery: images/gallery
-      booking-messages: images/messages
+      posts: images/salon-posts
+      gallery: images/salon-gallery
+      booking-messages: images/booking-messages
       service-categories: images/service-categories
       service-specification: images/service-specification
       salon-banners: images/salon-banners
