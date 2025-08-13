@@ -54,11 +54,11 @@ app:
       booking-messages: images/messages
       service-categories: images/service-categories
       service-specification: images/service-specification
-      salon-banners: images/banner
-      salon-profile-pictures: images/profile-pictures
+      salon-banners: images/salon-banners
+      salon-logos: images/salon-logos
       user-profile-pictures: images/user-profile-pictures
       review-pictures: images/review-pictures
-      provider-profile-pictures: images/provider-profile-pictures
+      team-member-profile-pictures: images/team-member-profile-pictures
     default-format: .webp
   delete-account-reasons:
     created-account-by-mistake: "I created this account by mistake"
